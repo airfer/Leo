@@ -40,6 +40,7 @@ public class Entry {
 		
 		//执行
 		TestReport report=iftExec.run();
+		//主要是测试使用
 		
 		//输出执行结果
 		System.out.print("任务执行结果："+report.getResMsg()+"\n");
